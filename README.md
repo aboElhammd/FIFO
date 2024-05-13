@@ -28,7 +28,17 @@ The verification requirements for the FIFO module are as follows:
 ![image](https://github.com/aboElhammd/FIFO/assets/124165601/ebaf0a76-2745-41e4-a195-459f07986246)
 
 Coverage Report:
-The coverage report for the verification is included in the repository.
+The coverage report for the verification is included in the repository and here is the most important parts of it :
+branch coverage :
+![image](https://github.com/aboElhammd/FIFO/assets/124165601/783ffb04-e2c1-424b-8269-f0cba609d5f6)
+statement coverage :
+![image](https://github.com/aboElhammd/FIFO/assets/124165601/6c129011-447d-4b79-8ef4-c7b09e238a77)
+toggle coverage :
+![image](https://github.com/aboElhammd/FIFO/assets/124165601/02d01b18-a3c2-4f58-b013-de09e00b80f4)
+assertion covergae :
+![image](https://github.com/aboElhammd/FIFO/assets/124165601/c558610e-a29b-4cf0-b4f5-54a28cf2777a)
+functional coverage :
+![image](https://github.com/aboElhammd/FIFO/assets/124165601/3a90414f-3126-43ce-ab3e-3c798ec66bc6)
 
 Bug Identification and Rectification:
 During the verification process, several bugs were identified and rectified and here is the bugs that i found :
@@ -44,3 +54,7 @@ write operations so the FIFO should read only and decrement the counter so we
 made it able to handle this situation and also the situation where we have an 
 empty FIFO and read and write operations so the counter should increase but it 
 didn’t so we handled these two cases
+Random Questa snippets :
+![image](https://github.com/aboElhammd/FIFO/assets/124165601/3279f694-cf8f-403b-9486-9004e5c9d9fc)
+
+![image](https://github.com/aboElhammd/FIFO/assets/124165601/66c8a217-3393-4d65-9d9c-b3d86998072d)
