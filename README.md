@@ -1,4 +1,5 @@
 FIFO Verification Project
+
 This project involves verifying the functionality of a First-In-First-Out (FIFO) module with the following specifications:
 ![image](https://github.com/aboElhammd/FIFO/assets/124165601/6086b7b6-7c58-4f1f-880b-86656e5728ae)
 
