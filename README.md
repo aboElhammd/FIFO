@@ -15,11 +15,13 @@ each negedge clock, the monitor will sample the data of the interface and assign
 the object of class FIFO_transaction. And then after that there will be fork join, where 2 
 processes will run, the first one is calling a function named sample_data of the object of class 
 FIFO_coverage and the second process is calling a function named check_data of the object of 
-class FIFO_scoreboard.
+class FIFO_scoreboard .
+
 So, in summary the monitor will sample the interface ports, and then pass these values to be 
 sampled for functional coverage and to be checked if the output ports are correct or not.
 After the fork join ends, you will check for the signal test_finished if it is high or not. If it high, 
 then the simulation stops and I display a message with summary of correct and error counts .
+
 Verification Requirements .
 
 The verification requirements for the FIFO module are as follows:
