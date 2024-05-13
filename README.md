@@ -1,9 +1,9 @@
-FIFO Verification Project
+FIFO Verification Project :
 
 This project involves verifying the functionality of a First-In-First-Out (FIFO) module with the following specifications:
 ![image](https://github.com/aboElhammd/FIFO/assets/124165601/6086b7b6-7c58-4f1f-880b-86656e5728ae)
 
-Testbench Flow
+Testbench Flow :
 The top module will generate the clock, pass it to the interface, and the interface will be passed to the 
 DUT, tb, and monitor modules. The tb will reset the DUT and then randomize the inputs. At the end of 
 the test, the tb will assert a signal named test_finished. The signal will be defined as well as the 
@@ -22,12 +22,12 @@ sampled for functional coverage and to be checked if the output ports are correc
 After the fork join ends, you will check for the signal test_finished if it is high or not. If it high, 
 then the simulation stops and I display a message with summary of correct and error counts .
 
-Verification Requirements .
+Verification Requirements :
 
 The verification requirements for the FIFO module are as follows:
 ![image](https://github.com/aboElhammd/FIFO/assets/124165601/ebaf0a76-2745-41e4-a195-459f07986246)
 
-Coverage Report.
+Coverage Report:
 The coverage report for the verification is included in the repository.
 
 Bug Identification and Rectification:
