@@ -16,17 +16,19 @@ the object of class FIFO_transaction. And then after that there will be fork joi
 processes will run, the first one is calling a function named sample_data of the object of class 
 FIFO_coverage and the second process is calling a function named check_data of the object of 
 class FIFO_scoreboard.
-3. So, in summary the monitor will sample the interface ports, and then pass these values to be 
+So, in summary the monitor will sample the interface ports, and then pass these values to be 
 sampled for functional coverage and to be checked if the output ports are correct or not.
-4. After the fork join ends, you will check for the signal test_finished if it is high or not. If it high, 
-then the simulation stops and I display a message with summary of correct and error counts..
-Verification Requirements
+After the fork join ends, you will check for the signal test_finished if it is high or not. If it high, 
+then the simulation stops and I display a message with summary of correct and error counts .
+Verification Requirements .
+
 The verification requirements for the FIFO module are as follows:
 ![image](https://github.com/aboElhammd/FIFO/assets/124165601/ebaf0a76-2745-41e4-a195-459f07986246)
-Coverage Report
+
+Coverage Report.
 The coverage report for the verification is included in the repository.
 
-Bug Identification and Rectification
+Bug Identification and Rectification:
 During the verification process, several bugs were identified and rectified and here is the bugs that i found :
 1.almostfull signal is high when we have one place empty but in the code it was 
 high when we have two places.
