@@ -29,10 +29,11 @@ The verification requirements for the FIFO module are as follows:
 
 Coverage Report:
 The coverage report for the verification is included in the repository and here is the most important parts of it :
+
 branch coverage :
 ![image](https://github.com/aboElhammd/FIFO/assets/124165601/783ffb04-e2c1-424b-8269-f0cba609d5f6)
 statement coverage :
-![image](https://github.com/aboElhammd/FIFO/assets/124165601/6c129011-447d-4b79-8ef4-c7b09e238a77)
+![image](https://github.com/aboElhammd/FIFO/assets/124165601/0d13cdb7-f8a1-433a-ad3f-a74d08553237)
 toggle coverage :
 ![image](https://github.com/aboElhammd/FIFO/assets/124165601/02d01b18-a3c2-4f58-b013-de09e00b80f4)
 assertion covergae :
@@ -54,6 +55,7 @@ write operations so the FIFO should read only and decrement the counter so we
 made it able to handle this situation and also the situation where we have an 
 empty FIFO and read and write operations so the counter should increase but it 
 didn’t so we handled these two cases
+
 Random Questa snippets :
 ![image](https://github.com/aboElhammd/FIFO/assets/124165601/3279f694-cf8f-403b-9486-9004e5c9d9fc)
 
